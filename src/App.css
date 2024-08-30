@@ -1,0 +1,371 @@
+
+.backdrop{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 237, 237);
+}
+.outline{
+  border-style: solid;
+padding: 1rem;
+}
+.textunderline{
+  text-decoration: underline;
+}
+p{font-size: 1.1rem;
+margin-top: 2rem;}
+th{
+  padding: .5rem;
+}
+td {
+  padding: .5rem;
+  outline:.5px solid black;
+}
+.pobw{
+  margin-top: 1rem;
+max-width: 100%;
+  object-fit: scale-down;
+}
+
+
+.App{
+
+  padding: 1rem;
+}
+.newsApp{
+  background-color: rgb(243, 237, 237);
+}
+.contributors{
+  
+  max-width: 30rem;
+}
+.sandwhiches{
+  max-width: 30rem;
+  min-width: 15rem;
+}
+.bio{
+  max-width: 40rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+.ocheader{
+  background-color: black;
+}
+.mnemonicpage{
+  text-align: center;
+  width: 350px;
+  height: 600px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(241, 241, 241);
+}
+
+.checklist li::marker{
+  font-size: 3rem;
+  line-height: 1;
+
+}
+::marker {
+  background-image:  url(./checkbox-check.svg);
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+.checklist li.check {
+  list-style-image: url(./checkbox-check.svg);
+}
+.content {
+  text-align: center;
+  width: 350px;
+  height: 520px;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.Brand{
+  padding-left: 1rem;
+}
+.navlink{
+  height: 2.5rem;
+}
+.roadmap{
+  padding: 1rem;
+}
+.Wbutton {
+  min-height: 1.5rem;
+  min-width: 4rem;
+  border-radius: .3rem;
+}
+.Keyfacts{
+  font-size: 2.5rem;
+  
+  padding: 1rem;
+}
+.App-logo-sandwiches {
+  border-width: .1rem;
+  border-style: solid;
+  border-radius: .5rem;
+  min-width: 15rem;
+  max-width: 35rem;
+  max-width: 100%;
+object-fit: scale-down;
+padding: .5rem;
+background-image: url("jungle.jpg");
+background-color: rgba(255, 255, 255, 0.774);
+background-blend-mode: lighten;
+}
+.App-logo-sandwich {margin-bottom: 1rem;
+  border-width: .1rem;
+  border-style: solid;
+  border-radius: .5rem;
+  min-width: 15rem;
+  max-width: 35rem;
+  max-width: 100%;
+object-fit: scale-down;
+padding: .5rem;
+background-image: url("jungle.jpg");
+background-color: rgba(255, 255, 255, 0.774);
+background-blend-mode: lighten;
+}
+.App-logo {
+  border-width: .1rem;
+  border-style: solid;
+  border-radius: .5rem;
+  float: right;
+  max-width: 100%;
+object-fit: scale-down;
+padding: .5rem;
+background-image: url("jungle.jpg");
+background-color: rgba(255, 255, 255, 0.774);
+background-blend-mode: lighten;
+}
+.backgroundimage{
+  background-color: rgba(255, 255, 255, 0.774);
+  background-blend-mode: lighten;
+  color: #000000;
+  background-image: url("jungle.jpg");
+}
+.logo{
+  height: 4rem;
+  
+}
+
+.glamoricons{
+ 
+  object-fit: contain;
+height: 4rem;
+}
+
+ /**{
+  outline: 1px solid red;
+ }
+.ocheader{
+  background-color: #282c34;
+}
+*/
+.xtext{
+  color: yellow;
+}
+.xButton{
+  background-color: #000000;
+  margin-top: .5rem;
+}
+.exchangeButton{
+  max-width: 10rem;
+  padding: .5rem;
+  object-fit: scale-down;
+}
+
+.paragraph{
+  
+  padding: .5rem;
+  font-size: larger;
+  min-width: 15rem;
+  max-width: 35rem;
+  border-radius: .5rem;
+}
+
+
+.paragetstart{
+  
+  padding: .5rem;
+  font-size: larger;
+  min-width: 15rem;
+  max-width: 55rem;
+  border-radius: .5rem;
+}
+.paranews{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+  font-size: x-large;
+  min-width: 15rem;
+ 
+  border-radius: .5rem;
+}
+.center{
+  display: flex;
+flex-direction: column;
+
+  align-items: center;
+}
+
+
+.offcanvas .btn-close {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+}
+.keyfacts{
+  border-style: solid;
+  border-width: .1rem;
+  padding: .5rem;
+  font-size: X-large;
+  min-width: 15rem;
+  max-width: 25rem;
+  border-radius: .5rem;
+  background-color: rgb(255, 255, 255);}
+  
+  .keyheaders{
+    
+    transition-duration: 1s;
+    text-shadow: 1px 1px 1px  rgb(201, 231, 141), 0 0 1em rgb(2, 77, 2), 0 0 0.2em rgb(25, 26, 24);
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(31, 32, 29);
+  }
+ .landCont{
+  padding: 1rem;
+ }
+.REVOLUTIONARY{ 
+  border-style: solid;
+  border-width: .1rem;
+  padding: .5rem;
+  font-size: X-large;
+  min-width: 15rem;
+  max-width: 25rem;
+  border-radius: .5rem;
+  background-color: rgb(255, 255, 255);}
+
+h2{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: .3rem;
+ padding: 1rem;
+}
+.shadow{
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+.logohome1{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 20rem;
+  border-radius: 4rem;
+  position: relative;
+ color: rgb(204, 174, 6);
+ font-size: medium;
+}
+.logohome2{  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 20rem;
+  border-radius: 4rem;
+  position: relative;
+ 
+
+}
+.logohome2:after {
+  
+  content: '';
+ position: absolute;
+ width: 100%;
+ height: 0.01rem;
+ left: 0;
+ bottom: 0;
+ background:yellow;
+}
+.logo1left::after{
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+  transform-origin: 0% 100%;
+}
+.logo2left::after{
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+  transform-origin: 0% 100%;
+}
+.logohome1:after {
+  
+  content: '';
+ position: absolute;
+ width: 100%;
+ height: 0.01rem;
+ left: 0;
+ bottom: 0;
+ background:yellow;
+}
+.logo1left::after{
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+  transform-origin: 0% 100%;
+}
+.navlink2{
+  padding: .3rem;
+  border-radius: .5rem;
+  background-color: black;
+  height: 3rem;
+}
+.logotoken{
+  max-width: 18rem;
+  border-radius: 4rem;
+  float: right;
+  padding: .5rem;
+}
+.chainspec{
+  display: block;
+  padding: 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.socialsmobile{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logohome{
+  
+  max-width: 20rem;
+  border-radius: 4rem;
+  
+  padding: .5rem;
+}
+.logo1left:hover::after{
+ transform: scale(1,1);
+}
+.logo2left:hover::after{
+  transform: scale(1,1);
+ }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
