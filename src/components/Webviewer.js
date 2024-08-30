@@ -1,11 +1,10 @@
-import "react-pdf/dist/esm/Page/AnnotationLayer.css"
-import 'react-pdf/dist/Page/TextLayer.css';
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/TextLayer.css";
 
-import {useState} from "react"
-import {Document, Page, pdfjs} from "react-pdf"
+import { useState } from "react";
+import { Document, Page, pdfjs } from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc =
-    `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function PDFViewer(props) {
   const [numPages, setNumPages] = useState();
@@ -19,7 +18,9 @@ export default function PDFViewer(props) {
     setPageNumber(pageNumber + 1 >= numPages ? numPages : pageNumber + 1);
   }
 
-  function onLoadSuccess({numPages}) { setNumPages(numPages); }
+  function onLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <div>
@@ -27,17 +28,19 @@ export default function PDFViewer(props) {
         <button onClick={prevPage}>Previous Page</button>
         <button onClick={nextPage}>Next Page</button>
       </nav>
-      <div className="pages">{pageNumber} of {numPages}</div>
+      <div className="pages">
+        {pageNumber} of {numPages}
+      </div>
       <div className="page">
         <Document
-  file = 'ComPDFKit_Sample_File_Web.pdf'
-  onLoadSuccess = {onLoadSuccess} renderMode = "canvas" > < Page
-            key={pageNumber}
-            pageNumber={
-    pageNumber}
-          />
+          file="ComPDFKit_Sample_File_Web.pdf"
+          onLoadSuccess={onLoadSuccess}
+          renderMode="canvas"
+        >
+          {" "}
+          <Page key={pageNumber} pageNumber={pageNumber} />
         </Document>
       </div>
     </div>
-  )
+  );
 }

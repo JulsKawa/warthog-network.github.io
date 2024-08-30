@@ -1,31 +1,29 @@
-import React from 'react'
-import {useEffect, useState} from 'react';
+import React from "react";
+import { useEffect, useState } from "react";
 
 const Navbar3 = () => {
+  const [windowDim, setWindowDim] = useState({
+    winWidth: window.innerWidth,
+  });
 
-    const [windowDim, setWindowDim] = useState  ({
-        winWidth:window.innerWidth,
-        
-        });
-        
-        const detectSize = () =>{
-            setWindowDim({
-                winWidth:window.innerWidth,
-            })
-        }
-        
-        useEffect(()=>{
-        window.addEventListener('resize', detectSize)
-        
-        return()=>{
-            window.removeEventListener('resize', detectSize)
-        }
-        },[windowDim])
+  const detectSize = () => {
+    setWindowDim({
+      winWidth: window.innerWidth,
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", detectSize);
+
+    return () => {
+      window.removeEventListener("resize", detectSize);
+    };
+  }, [windowDim]);
   return (
     <div>
-    {  (windowDim.winWidth>1000) ? <div>Navbar3</div> :<div>apples</div>}
+      {windowDim.winWidth > 1000 ? <div>Navbar3</div> : <div>apples</div>}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar3
+export default Navbar3;
