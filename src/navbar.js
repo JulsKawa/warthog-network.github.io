@@ -1,13 +1,14 @@
 import Container from 'react-bootstrap/Container';
-import logo from './img/shortyellowlogo.svg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import github from './img/github.svg';
+
 import discord from './img/discord.svg';
+import github from './img/github.svg';
+import logo from './img/shortyellowlogo.svg';
 import telegram from './img/telegram.svg';
 import twitter from './img/twitter.svg'
+
 function OffcanvasExample() {
   return (
     <div> 
@@ -18,7 +19,7 @@ function OffcanvasExample() {
           <Container  fluid>
             <Navbar.Brand  href="/"><img className="logo" src={logo}  alt=""/></Navbar.Brand>
             <Navbar.Toggle  aria-controls={` offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas 
+            <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"

@@ -1,20 +1,22 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import OffcanvasExample from './navbar';
 import './App.css';
-import { TbBrowserCheck } from "react-icons/tb";
-import { useState,useEffect } from 'react';
-import wartcoin from './soldierwart.webp';
-import tokengraph from './tokenomics.png';
-import sandwich from './sandwich.webp';
-import sandwiches from './sandwichproblem.webp';
-import { BiSolidChevronsDown } from "react-icons/bi";
-import Navbar2 from './navbar2';
+
+import {useEffect, useState} from 'react';
+import {Col, Container, Row} from 'react-bootstrap';
+import {BiSolidChevronsDown} from "react-icons/bi";
+import {TbBrowserCheck} from "react-icons/tb";
+
+import caldera from './img/caldera.png'
+import discord from './img/discord.png'
 import exibitron from './img/exibitron.png'
 import tradeogre from './img/tradeogre.png'
 import xeggex from './img/xeggex.png'
-import caldera from './img/caldera.png'
+import OffcanvasExample from './navbar';
+import Navbar2 from './navbar2';
+import sandwich from './sandwich.webp';
+import sandwiches from './sandwichproblem.webp';
+import wartcoin from './soldierwart.webp';
+import tokengraph from './tokenomics.png';
 
-import discord from './img/discord.png'
 const Landing = () => {
     const [windowDim, setWindowDim] = useState  ({
         winWidth:window.innerWidth,

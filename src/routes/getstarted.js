@@ -1,13 +1,13 @@
-import OffcanvasExample from '../navbar';
-import {  Row, Col } from 'react-bootstrap';
+import {useEffect, useState} from 'react';
+import {Col, Row} from 'react-bootstrap';
+
+import caldera from '../img/caldera.png'
+import discord from '../img/discord.png'
 import exibitron from '../img/exibitron.png'
 import tradeogre from '../img/tradeogre.png'
 import xeggex from '../img/xeggex.png'
+import OffcanvasExample from '../navbar';
 import Navbar2 from '../navbar2';
-import { useState,useEffect } from 'react';
-import caldera from '../img/caldera.png'
-
-import discord from '../img/discord.png'
 
 const Getstarted = () => {
     const [windowDim, setWindowDim] = useState  ({

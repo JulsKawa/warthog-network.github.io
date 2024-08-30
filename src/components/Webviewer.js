@@ -1,9 +1,11 @@
-import { useState } from "react"
-import { Document, Page, pdfjs } from "react-pdf"
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 import 'react-pdf/dist/Page/TextLayer.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import {useState} from "react"
+import {Document, Page, pdfjs} from "react-pdf"
+
+pdfjs.GlobalWorkerOptions.workerSrc =
+    `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function PDFViewer(props) {
   const [numPages, setNumPages] = useState();
@@ -17,9 +19,7 @@ export default function PDFViewer(props) {
     setPageNumber(pageNumber + 1 >= numPages ? numPages : pageNumber + 1);
   }
 
-  function onLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+  function onLoadSuccess({numPages}) { setNumPages(numPages); }
 
   return (
     <div>
@@ -30,17 +30,14 @@ export default function PDFViewer(props) {
       <div className="pages">{pageNumber} of {numPages}</div>
       <div className="page">
         <Document
-          file='ComPDFKit_Sample_File_Web.pdf'
-          onLoadSuccess={onLoadSuccess}
-          renderMode="canvas"
-        >
-          <Page
+  file = 'ComPDFKit_Sample_File_Web.pdf'
+  onLoadSuccess = {onLoadSuccess} renderMode = "canvas" > < Page
             key={pageNumber}
-            pageNumber={pageNumber}
+            pageNumber={
+    pageNumber}
           />
         </Document>
       </div>
     </div>
   )
 }
- 

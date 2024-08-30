@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
+import {useEffect, useState} from 'react';
+
 const Navbar3 = () => {
 
     const [windowDim, setWindowDim] = useState  ({

@@ -1,6 +1,8 @@
-import { useState,useEffect } from 'react';
-import Navbar2 from '../navbar2';
+import {useEffect, useState} from 'react';
+
 import OffcanvasExample from '../navbar';
+import Navbar2 from '../navbar2';
+
 const News = () => {
     const [windowDim, setWindowDim] = useState  ({
         winWidth:window.innerWidth,

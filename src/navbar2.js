@@ -1,13 +1,16 @@
-import React from 'react'
-import logo from './navlogo.png';
-import { Link } from "react-router-dom";
-import {Navbar,Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import github from './img/github.svg';
+
+import React from 'react'
+import {useEffect, useState} from 'react';
+import {Nav, Navbar} from 'react-bootstrap';
+import {Link} from "react-router-dom";
+
 import discord from './img/discord.svg';
+import github from './img/github.svg';
 import telegram from './img/telegram.svg';
 import twitter from './img/twitter.svg'
-import { useState,useEffect } from 'react';
+import logo from './navlogo.png';
+
 const Navbar2 = () => {
   
   const [windowDim, setWindowDim] = useState  ({

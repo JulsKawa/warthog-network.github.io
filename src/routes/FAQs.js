@@ -1,8 +1,10 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
-import Navbar2 from '../navbar2';
+import {useEffect, useState} from 'react';
+import {Container} from 'react-bootstrap';
+
 import OffcanvasExample from '../navbar';
-import { Container } from 'react-bootstrap';
+import Navbar2 from '../navbar2';
+
 const FAQs = () => {
   const [windowDim, setWindowDim] = useState  ({
     winWidth:window.innerWidth,

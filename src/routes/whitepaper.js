@@ -1,27 +1,29 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
-import Navbar2 from '../navbar2';
+import {useEffect, useState} from 'react';
+
 import OffcanvasExample from '../navbar';
-const Whitepaper = () => {
-  const [windowDim, setWindowDim] = useState  ({
-    winWidth:window.innerWidth,
-    
-    });
-    
+import Navbar2 from '../navbar2';
+
+const Whitepaper =
+    () => {
+      const [windowDim, setWindowDim] = useState({
+        winWidth : window.innerWidth,
+
+      });
+
     const detectSize = () =>{
-        setWindowDim({
-            winWidth:window.innerWidth,
-        })
+    setWindowDim({
+      winWidth : window.innerWidth,
+    })
     }
     
     useEffect(()=>{
     window.addEventListener('resize', detectSize)
-    
+
     return()=>{
-        window.removeEventListener('resize', detectSize)
+    window.removeEventListener('resize', detectSize)
     }
     },[windowDim])
-
 
 return (
   <div className='newsApp'>
@@ -311,6 +313,6 @@ return (
       </div>
     </div>
   )
-}
+    }
 
 export default Whitepaper

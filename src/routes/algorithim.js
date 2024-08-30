@@ -1,7 +1,5 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
-import Navbar2 from '../navbar2';
-import OffcanvasExample from '../navbar';
+import {useEffect, useState} from 'react';
 
 import pobw1 from '../img/pobw1.png'
 import pobw2 from '../img/pobw2.png'
@@ -10,7 +8,8 @@ import pobw4 from '../img/pobw4.png'
 import pobw5 from '../img/pobw5.png'
 import pobw6 from '../img/pobw6.png'
 import pobw7 from '../img/pobw7.png'
-
+import OffcanvasExample from '../navbar';
+import Navbar2 from '../navbar2';
 
 const Algorithim = () => {
   const [windowDim, setWindowDim] = useState  ({
