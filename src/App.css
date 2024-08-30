@@ -35,7 +35,7 @@ max-width: 100%;
   background-color: rgb(243, 237, 237);
 }
 .contributors{
-  
+
   max-width: 30rem;
 }
 .sandwhiches{
@@ -108,7 +108,7 @@ max-width: 100%;
 }
 .Keyfacts{
   font-size: 2.5rem;
-  
+
   padding: 1rem;
 }
 .App-logo-sandwiches {
@@ -157,11 +157,11 @@ background-blend-mode: lighten;
 }
 .logo{
   height: 4rem;
-  
+
 }
 
 .glamoricons{
- 
+
   object-fit: contain;
 height: 4rem;
 }
@@ -187,7 +187,7 @@ height: 4rem;
 }
 
 .paragraph{
-  
+
   padding: .5rem;
   font-size: larger;
   min-width: 15rem;
@@ -197,7 +197,7 @@ height: 4rem;
 
 
 .paragetstart{
-  
+
   padding: .5rem;
   font-size: larger;
   min-width: 15rem;
@@ -211,7 +211,7 @@ flex-direction: column;
 align-items: center;
   font-size: x-large;
   min-width: 15rem;
- 
+
   border-radius: .5rem;
 }
 .center{
@@ -234,9 +234,9 @@ flex-direction: column;
   max-width: 25rem;
   border-radius: .5rem;
   background-color: rgb(255, 255, 255);}
-  
+
   .keyheaders{
-    
+
     transition-duration: 1s;
     text-shadow: 1px 1px 1px  rgb(201, 231, 141), 0 0 1em rgb(2, 77, 2), 0 0 0.2em rgb(25, 26, 24);
     font-size: 1.7rem;
@@ -246,7 +246,7 @@ flex-direction: column;
  .landCont{
   padding: 1rem;
  }
-.REVOLUTIONARY{ 
+.REVOLUTIONARY{
   border-style: solid;
   border-width: .1rem;
   padding: .5rem;
@@ -257,7 +257,7 @@ flex-direction: column;
   background-color: rgb(255, 255, 255);}
 
 h2{
-  
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: .3rem;
  padding: 1rem;
@@ -276,16 +276,16 @@ h2{
  color: rgb(204, 174, 6);
  font-size: medium;
 }
-.logohome2{  
+.logohome2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 20rem;
   border-radius: 4rem;
   position: relative;
- 
+
 
 }
 .logohome2:after {
-  
+
   content: '';
  position: absolute;
  width: 100%;
@@ -305,7 +305,7 @@ h2{
   transform-origin: 0% 100%;
 }
 .logohome1:after {
-  
+
   content: '';
  position: absolute;
  width: 100%;
@@ -342,10 +342,10 @@ h2{
   justify-content: space-evenly;
 }
 .logohome{
-  
+
   max-width: 20rem;
   border-radius: 4rem;
-  
+
   padding: .5rem;
 }
 .logo1left:hover::after{
