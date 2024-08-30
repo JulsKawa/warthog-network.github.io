@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb8ea27b.css",
+    "main.js": "/static/js/main.bb85a723.js",
+    "static/js/453.d4770901.chunk.js": "/static/js/453.d4770901.chunk.js",
+    "static/media/pobw4.png": "/static/media/pobw4.af08a41ef3f9d35f2c86.png",
+    "static/media/pobw6.png": "/static/media/pobw6.22a3e0054a19db8e562d.png",
+    "static/media/pobw2.png": "/static/media/pobw2.47fa16889535047c1308.png",
+    "static/media/pobw7.png": "/static/media/pobw7.271ef2e20c17cd0a65f7.png",
+    "static/media/pobw1.png": "/static/media/pobw1.886efb20472f413c4e06.png",
+    "static/media/pobw5.png": "/static/media/pobw5.475dee3a75eb8fcab779.png",
+    "static/media/pobw3.png": "/static/media/pobw3.efb107340d5b0051ae27.png",
+    "static/media/discord.png": "/static/media/discord.7776bf9320f0b7a7eec4.png",
+    "static/media/jungle.jpg": "/static/media/jungle.66f56b7c00ef6d06d622.jpg",
+    "static/media/soldierwart.webp": "/static/media/soldierwart.329d3657cad0a95c9b14.webp",
+    "static/media/sandwich.webp": "/static/media/sandwich.f5533b7f79c15e8724cf.webp",
+    "static/media/navlogo.png": "/static/media/navlogo.4ace2049b895ba677d99.png",
+    "static/media/tokenomics.png": "/static/media/tokenomics.3525b5362ec0a5ad96d3.png",
+    "static/media/sandwichproblem.webp": "/static/media/sandwichproblem.ef9473076d15d86c65bd.webp",
+    "static/media/xeggex.png": "/static/media/xeggex.da3f0a9d21a6a30e2d76.png",
+    "static/media/caldera.png": "/static/media/caldera.1e0e4e5425567c282adc.png",
+    "static/media/telegram.svg": "/static/media/telegram.6d6aff538c97773ee3b31681729644c1.svg",
+    "static/media/discord.svg": "/static/media/discord.d13ba0703469129fb5dd0d4ebfd5b065.svg",
+    "static/media/shortyellowlogo.svg": "/static/media/shortyellowlogo.3ed0ef592c9ce01f88bc58e355d3db4f.svg",
+    "static/media/github.svg": "/static/media/github.03e34a8751086911d90f626fcd798465.svg",
+    "static/media/twitter.svg": "/static/media/twitter.56026f12331fffbac7a543198b3dff7c.svg",
+    "index.html": "/index.html",
+    "static/media/checkbox-check.svg": "/static/media/checkbox-check.88252eb2f051e9e555ca.svg",
+    "main.fb8ea27b.css.map": "/static/css/main.fb8ea27b.css.map",
+    "main.bb85a723.js.map": "/static/js/main.bb85a723.js.map",
+    "453.d4770901.chunk.js.map": "/static/js/453.d4770901.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb8ea27b.css",
+    "static/js/main.bb85a723.js"
+  ]
+}
